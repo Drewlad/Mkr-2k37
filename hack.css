@@ -1,0 +1,58 @@
+#h1t{
+    
+    font-size: 0.89cm;
+    text-align: center;
+
+    animation:heading;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading{
+    from{}
+    to{}
+}
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    font-size: large;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1cm;
+    padding: 25px 25px;
+    box-shadow: 0 0 128px 0 ;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+body{
+    background: linear-gradient(to left skyblue,lightyellow);
+    
+}
+#btlgn{
+    font-size: medium;
+}
+#btsgn{
+    font-size: large;
+    align-content: center;
+    margin: 2cm;
+    border-style: outset;
+    background-color: #A09D97;
+   
+}
+
+.field input {
+    font-family: 'Courier New', Courier, monospace;
+}
+#username{
+    font-size: medium;
+}
+#password{
+    font-size: medium;
+}
